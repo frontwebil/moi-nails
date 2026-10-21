@@ -7,7 +7,6 @@ import {
 } from "lucide-react";
 import { useI18n } from "@/i18n/I18nContext";
 import { BUSINESS } from "@/i18n/images";
-import { supabase } from "@/lib/supabase";
 import { useReveal } from "@/hooks/useReveal";
 
 interface BookingForm {
