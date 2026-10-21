@@ -82,7 +82,6 @@ export function I18nProvider({ children }: { children: ReactNode }) {
       applyUrl(next);
       // Update <html lang> and SEO immediately.
       updateDocumentMeta(TRANSLATIONS[next]);
-      window.location.reload();
     },
     [applyUrl],
   );
